@@ -1,3 +1,19 @@
 site_name: test-repo
 theme:
   name: material
+  palette: 
+    - scheme: default
+      primary: black
+      toggle:
+        primary: black
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate 
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: material/github
+repo_url: https://github.com/stolarczyk/test-repo
+repo_name: stolarczyk/test-repo
